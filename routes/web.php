@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/chart', [ChartController::class, 'index']);
+// Route::get('/chart', [ChartController::class, 'dias']);
